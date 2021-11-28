@@ -1,0 +1,155 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3 {
+  font-size: 1.5rem;
+
+  font-weight: bold;
+  width: 100%;
+}
+i {
+  color: #ef8172;
+}
+/* Headings */
+.big-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+  padding: 12% 3%;
+}
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+/* Title image */
+#title-img {
+  transform: rotate(25deg);
+  width: 60%;
+  margin-top: 10%;
+  position: absolute;
+  right: 30%;
+}
+/* Navigation bar */
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Features */
+
+#features {
+  padding: 7% 10%;
+  background-color: white;
+  position: relative;
+}
+
+h3 + p {
+  color: #8f8f8f;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+.icon {
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimony */
+#testimonials {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+#testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+@media (max-width: 975px) {
+  #title {
+    text-align: center;
+  }
+  #title-img {
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  font-family: "Montserrat";
+  color: white;
+  padding-bottom: 15% 15%;
+}
+
+#cta h3 {
+  padding: 10%;
+  font-size: 3rem;
+}
+#cta button {
+  margin: 0 3% 5%;
+}
+#footer {
+  background-color: #fff;
+  padding: 5%;
+  text-align: center;
+}
+.icon {
+  padding: 0 2%;
+}
